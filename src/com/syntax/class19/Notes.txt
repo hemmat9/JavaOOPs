@@ -1,0 +1,33 @@
+Inheritance:
+is a mechanism in which one class acquires all the properties and behaviors/methods of parent class
+except private members and constructors.
+we use extend keyword to inherit from a class.
+benefits of inheritance:
+1- Saves time to code
+2- it takes less memory
+3- execution time is less
+4- code duplication is reduced
+Disadvantages
+1- In inheritance base class and child class both are tightly coupled, hence, if we change the code of parent class
+it will affect all the child classes.
+
+Types of Inheritance
+there are 4 major types of inheritance which are supported in most of the OOP languages, but JAVA only supports 3 types with classes
+1- Single Inheritance
+2- Hierarchical Inheritance
+3- MultiLevel Inheritance
+4- Multiple Inheritance (this type is not supported by Java).
+
+* Single Inheritance
+if we have one base (Parent) class and one derived(Child, sub) class from it, it is called single Inheritance.
+
+* Hierarchical Inheritance
+if we have 1 base (Parent) class and multiple derived (children, sub) classes from it, it is called Hierarchical Inheritance.
+
+* MultiLevel Inheritance
+A class extends from another class which is already extended from another class
+* Multiple Inheritance
+Multiple base (Parents) classes but has one derived (Child) class
+
+Diamond Problem ?? is related to the multiple Inheritance
+
