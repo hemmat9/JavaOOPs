@@ -1,6 +1,7 @@
 package com.syntax.class18;
 
 public class Animal  {
+
     String name;
     protected String breed;
     String color;
@@ -8,7 +9,7 @@ public class Animal  {
     double weight;
 
     void eat() {
-        System.out.println(name + " eating");
+        System.out.println(name + " eating and he is from the breed "+breed);
     }
 
     void sleep() {
