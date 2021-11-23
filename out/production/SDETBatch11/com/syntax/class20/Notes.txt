@@ -1,0 +1,31 @@
+Super Keyword
+it is used to refer to the parent's class instance, we can use super keyword in 3 different ways
+1)- to call the parent class constructor super()
+2)- to call the method from parent class.
+3)- to use the fields from the parent class.
+
+class Parent{
+String name="Mohammd Gul";
+double salary;
+
+void eat(){
+sout "Kebab"
+}
+}
+
+class Child extends Parent{
+Child(double salary){
+super(salary) //should be the first line
+}
+String name="Ahmet";
+void eat (){
+sout "more kebab"
+}
+
+printfood(){
+super.eat()//refers to the parent class
+eat()//refers to the child class
+}
+
+
+}
