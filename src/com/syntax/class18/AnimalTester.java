@@ -14,7 +14,7 @@ public class AnimalTester {
         Cat cat = new Cat();
         cat.name="Lexy";
         cat.meow();
-        System.out.println(dog.name);
+        System.out.println(cat.name);
 
     }
 }

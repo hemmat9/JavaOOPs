@@ -4,12 +4,15 @@ public class PetTester {
     public static void main(String[] args) {
 
 
-        Dog dog = new Dog ("Boby", "Bulldog", "Black", 10);
+        Dog dog = new Dog ("Bobby", "Bulldog","White",5);
         dog.print();
 
-        Cat cat = new Cat("Lexy", "Persian", "white",5);
+        Pet pet = new Pet("Lola", "cake", "Red", 10);
+        pet.printInfo();
+
+        /*Cat cat = new Cat("Lexy", "Persian", "white",5);
         cat.printInfo();
-        cat.play();
+        cat.play();*/
 
     }
 }

@@ -11,9 +11,9 @@ public class Class {
         return number;
     }
 
-    private int method(String str) {
-        System.out.println(str);
-        return 5;
+    private double method(double num) {
+        System.out.println(num);
+        return num*8;
     }
 
 
@@ -23,7 +23,6 @@ public class Class {
     public static void main(String[] args) {
         Class task4 = new Class();
         task4.method();
-        task4.method("4");
         task4.method(4);
     }
 }

@@ -1,0 +1,16 @@
+Rules for casting object/Classes
+1- We can store a child class object inside a parent type variable because inheritance
+is one way from parent to children.
+2- we can create arrays of type parent and can store all the objects of child classes
+inside that array then we can write loops to call all the child classes inside that array then
+we can write loops to call all the methods from all the classes.
+Note: polymorphism happens when there is overriding/ without overriding there is no usage of
+polymorphism example of webDriver is perfect example.
+3- we can not store/cast a parent class object to child class but if parent type variable
+(Father son= new Son();) here (Father son) is parent type variable, but if parent type variable already contains
+the child object then we can get it back by casting it.
+
+Final Keyword:
+if we write final with variable we can not change its value either we should initialize it right away or thorough the constructor.
+When use with a method we cannot override that method in the child class.
+when used with class that class is not inherited to the subClasses.

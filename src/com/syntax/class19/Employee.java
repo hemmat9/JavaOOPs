@@ -9,6 +9,10 @@ public class Employee {
     void printSalary() {
         System.out.println(salary);
     }
+    void printAge(){
+        System.out.println(age);
+    }
+
 
     void printNoDaysOff() {
         System.out.println(baseNoDayOff);
@@ -22,7 +26,7 @@ class Manager extends Employee {
     int travelingAllowance = 200;
 
     void printSalary() {
-        super.printSalary();
+        //super.printSalary();
         System.out.println(bonus + travelingAllowance +super.salary);
     }
 }

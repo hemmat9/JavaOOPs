@@ -5,7 +5,7 @@ public class MultiClassConsDemoTest {
 
         MultiClassConsDemo obj = new MultiClassConsDemo("String",12);
         new MultiClassConsDemo(12,"String");
-        new MultiClassConsDemo();
+        //new MultiClassConsDemo();
         new MultiClassConsDemo("String", 12, 200);
 
     }

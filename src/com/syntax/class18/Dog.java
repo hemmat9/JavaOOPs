@@ -1,7 +1,17 @@
 package com.syntax.class18;
 
 public class Dog extends Animal{
+
+
+
+
+
     boolean loyal =true;
+
+
+
+
+
     void printInfo(){
         System.out.println(name+breed+color+age+weight);
     }

@@ -3,7 +3,7 @@ package com.syntax.class18;
 public class Animal  {
 
     String name;
-    protected String breed;
+    String breed;
     String color;
     int age;
     double weight;

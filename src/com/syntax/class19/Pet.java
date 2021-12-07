@@ -12,14 +12,18 @@ public class Pet {
         this.color = color;
         this.age = age;
     }
+    void printInfo(){
+        System.out.println(name+breed+color+age);
+    }
 }
     class Dog extends Pet {
-        Dog(String name, String breed, String color, int age) {//constructors do not participate in inheritance
+
+    Dog (String name, String breed, String color, int age) {//constructors do not participate in inheritance
             super(name, breed, color, age);  //super is used to call the constructors of the parent class
         }
 
         void print() {
-            System.out.println(name+" "+breed);
+            System.out.println(name+" "+breed+" "+color+" "+age);
         }
     }
 
@@ -34,4 +38,9 @@ public class Pet {
         void play(){
             System.out.println(name+ " is playing");
         }
+    }
+    class Cow extends Pet{
+    Cow (String name, String breed, String color, int age){
+        super(name, breed, color, age);
+    }
     }
