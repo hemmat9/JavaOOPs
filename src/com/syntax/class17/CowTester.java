@@ -1,0 +1,12 @@
+package com.syntax.class17;
+
+public class CowTester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Cow cow1 =new Cow("Lola", "Hollstien", "white",16,80);
+		cow1.printAllInfo();
+		
+	}
+
+}

@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/com/syntax/class18HomeWork" vcs="Git" />
+    <mapping directory="$USER_HOME$/eclipse-workspace/JavaProject01" vcs="Git" />
   </component>
 </project>
