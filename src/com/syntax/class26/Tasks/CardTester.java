@@ -14,6 +14,6 @@ public class CardTester {
             card.interest();
             card.payment();
         }
-        System.out.println(linkedList);
+        
     }
 }

@@ -14,10 +14,11 @@ public class ArrayListDemo3 {
 
         //System.out.println(subjects.get(3));
 
-        for (int i =0; i<subjects.size(); i++){//we should not use loops to remove anything from an array
-             if(subjects.get(i).length()>4){
+        for (int i =0; i<subjects.size(); i++){//we should not use loops to remove(to bring change in the size) anything from an array
+             if(subjects.get(i).length()<4){
                  subjects.get(i);
              }
+
         }
         System.out.println(subjects);
 

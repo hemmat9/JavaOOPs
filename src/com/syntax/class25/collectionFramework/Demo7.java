@@ -26,9 +26,9 @@ public class Demo7 {
         subjects.addAll(subjects1);//this is how we can combine all the elements from to array list
         subjects.addAll(2,subjects2);//we can also specify the index where you want the new list.
         System.out.println(subjects);
-        subjects1.clear();
-        subjects2.clear();
-        System.out.println(subjects1);
-        System.out.println(subjects2);
+        //subjects1.clear();
+       // subjects2.clear();
+        //System.out.println(subjects1);
+        //System.out.println(subjects2);
     }
 }

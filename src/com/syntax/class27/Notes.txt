@@ -13,3 +13,16 @@ When to use ArrayList:
 when we have to retrieve data mostly use ArrayLists.
 LinkedList:
 When we have to write the data in-between, or in-front of the list most of the time we should use LinkedList.
+
+Properties of List:
+1- They maintain the insertion order
+2- They can contain duplicate data as well.
+=================================
+Set:
+They can't have duplicate values;
+LinkedHashSet:
+maintain the order
+HashSet:
+it is fast but no order
+TreeHashSet:
+No duplicate are maintained, but maintains the order.

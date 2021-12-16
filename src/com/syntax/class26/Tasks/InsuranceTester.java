@@ -6,15 +6,14 @@ import java.util.Iterator;
 public class InsuranceTester {
     public static void main(String[] args) {
         ArrayList<Insurance> arrayList = new ArrayList<>();
-        arrayList.add(new Car());
-        arrayList.add(new Pet());
-        arrayList.add(new Health());
+        arrayList.add(new Car("AAA","Camry"));
+        arrayList.add(new Pet("Gieco", "Cat"));
+        arrayList.add(new Health("Kaiser"));
 
         for (Insurance insurance : arrayList) {
             insurance.getQuote();
             insurance.cancelInsurance();
         }
-        System.out.println(arrayList);
 
     }
 }

@@ -7,6 +7,7 @@ public class ArrayListDemo {
         ArrayList<Fruit>fruits = new ArrayList<>();
         fruits.add(new Apple());
         fruits.add(new Orange());
+        fruits.add(new Fruit());
 
         for (Fruit f: fruits){
             f.printName();

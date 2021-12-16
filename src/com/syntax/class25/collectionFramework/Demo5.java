@@ -23,6 +23,7 @@ public class Demo5 {
         subjects.remove("Dead");
         System.out.println(subjects.size());
         System.out.println(subjects.indexOf("Sql"));
+        System.out.println(subjects.indexOf("TestNg"));
 
     }
 }

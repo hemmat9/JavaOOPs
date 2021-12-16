@@ -1,0 +1,24 @@
+Final Keyword
+    1- Final keyword is used to restrict the programmers.
+    2- When we use it with variables we can't change their values once they are initialized.
+    3- We can override those variables for example I can have same name variable in the child class without caring about the access/non-access modifiers.
+    4- if we want to initialize the static field we can also use static initializer blocks.
+
+Final with methods:
+    if we used the final keyword with methods we cannot override that method in the child class.
+
+Final with class name
+    if we use the final keyword with class name we can't inherit that class. But that class can inherit from other classes.
+
+=====================================
+
+Abstraction:
+    Abstraction in Java means hiding the implementation details and providing only the functionality to the user.
+    we define the input/output of a method inside the parent class and make that class as abstract.
+
+
+Interface:
+if two entities don't have parent child relationship we can create an interface for those entities.
+
+Encapsulation:
+Encapsulation is using data(variables/fields) and code (methods) together as a single unit.
