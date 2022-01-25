@@ -1,0 +1,40 @@
+Maps:
+Maps are data structure that can store the data in the form of key value pair.
+There are more than 200 types of Map in Java, but we will learn three famous types of Maps
+1) HashMap
+2) LinkedHashMap
+3) TreeMap
+
+HashMap:
+Insertion order is not maintained, when we need good performance, and we don't care about the order of the data we use HashMap.
+
+LinkedHashMap:
+Insertion order is maintained, but it is slower when it comes to retrieve the data as compared to a hashmap. but better insertion speed than TreeMaps. When
+we need to maintain the insertion order of the data.
+
+TreeMaps:
+TreeMaps store the data in sorted form insertion it is slow because treemap has to compare the data with existing elements that is why insertion is slow but retrieval is fast.
+
+HashTable are ThreadSafe, ThreadSafe mean no conflicts/fighting when retrieving data from the memory.
+
+=========================================================================
+
+To read a data from a  file we must have bellow things
+1- Path or location of that particular file on our computer
+2- Appropriate program must be installed on the computer to read the data from that file.
+3- we must also know about the structure of that file, for example in Excel files, data is stored in the form of workbooks, sheets, rows, columns and cells.
+
+Why we should learn about fileHandling in Java?
+    1)-we store sensitive data in files instead of code so that no one can access that data.
+    we write the code inside java programs to read that info at runtime from some kind of files to perform the testing and once testing is done we delete those files and data.
+    2)- When we have to test web forms we don't putt all the testing data inside the code we create files for that read the data from those files and test those web forms.
+
+    ======================================================
+    how to create properties file in the intellij
+    right click on project -> click new -> Directory
+    once directory is created right click on it and then click on new file and give it an extension as .propertiess
+
+
+
+
+

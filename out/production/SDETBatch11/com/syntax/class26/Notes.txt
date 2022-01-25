@@ -27,9 +27,9 @@ int i2=i; auto unboxing
 
 Collection frameWork:
 Collection  framework  in  java  provides  an architecture to store and manipulate the group of objects that represented as a single unit.
-We have many interfaces and classes inside the framework to achieve this.
+We have many interfaces and classes inside the collection framework to achieve this.
 
 
 ArrayList
-<> Diamond operator issued to specify the data type in collections framework.
-ArrayList<Double> numbers=new ArrayList<>();
+<> Diamond operator is used to specify the data type in collections framework.
+ArrayList<Double> numbers=new ArrayList<>(); any data types between the diamond operator is called generics.

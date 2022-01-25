@@ -1,0 +1,5 @@
+final is a keyword in Java that we can use with classes fields and methods, it is non access modifier.
+1)if a class is final that class is not inherited, but it can inherit from another classes.
+Private and final methods can be overloaded but not be overridden.
+2) when used with methods that method can not be overridden in child classes.
+3) when used with fields we can not change the value of those fields.

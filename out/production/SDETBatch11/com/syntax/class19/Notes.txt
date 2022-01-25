@@ -1,5 +1,5 @@
 Inheritance:
-is a mechanism in which one class acquires all the properties and behaviors/methods of parent class
+is a mechanism in which one class acquires all the properties and behaviors/methods of the super class
 except private members and constructors.
 we use extend keyword to inherit from a class.
 benefits of inheritance:
@@ -30,4 +30,5 @@ A class extends from another class which is already extended from another class
 Multiple base (Parents) classes but has one derived (Child) class
 
 Diamond Problem ?? is related to the multiple Inheritance
+in multiple inheritance there is multiple super-classes and single sub-class,
 

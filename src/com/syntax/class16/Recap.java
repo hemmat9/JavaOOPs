@@ -2,7 +2,7 @@ package com.syntax.class16;
 
 public class Recap {
 	
-	int number;//if I want share this number between all methods we add static keyword
+	static int number;//if I want share this number between all methods we add static keyword
 	
 	void setNumber(int num) {
 		number=num;

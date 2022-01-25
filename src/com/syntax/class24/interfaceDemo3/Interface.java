@@ -14,7 +14,7 @@ class Test implements Interface{
 }
 class Main{
     public static void main(String[] args) {
-        Interface.method2();// it is an static method that is why we can call it directly without creating an object of it.
+        Interface.method2();// it is a static method that is why we can call it directly without creating an object of it.
         //Interface.method1();// I can not call this method because I have to create an object out of it.
         Interface interface1 = new Test();
         Interface.method2();

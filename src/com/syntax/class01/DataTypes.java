@@ -33,7 +33,7 @@ public class DataTypes {
 		boolean tired=false;
 		
 		// we are storing values inside variables 
-		// why there are warning? because we used the values but we didn't use it yet. 
+		// why there are warning? because we used the values, but we didn't use it yet.
 		
 		
 	 System.out.println(box1);

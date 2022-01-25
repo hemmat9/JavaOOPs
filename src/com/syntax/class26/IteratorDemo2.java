@@ -15,6 +15,8 @@ public class IteratorDemo2 {
         subjects.add("TestNg");
 
         Iterator<String> iterator = subjects.iterator();
+
+
         while(iterator.hasNext()){//this is how to remove after iteration using iterator class with while loop.
             String element= iterator.next();
             if(element.length()>4){

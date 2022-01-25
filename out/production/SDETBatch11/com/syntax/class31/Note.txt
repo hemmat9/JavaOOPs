@@ -1,0 +1,8 @@
+Exception is an event which disrupts the normal flow of program.
+The exceptions that we get red underline those are called checked exception.
+
+Unchecked exceptions are light wight exception which can be fixe or avoided by an if else conditions or a proper code.
+but checked exceptions are those which are beyond an if else conditions, or proper coding, so we have to throw exceptions or create a proper try catch block.
+
+Errors: The issues or problems which are beyond java and programmers those are called error i.e plugging off the system from power, or there is some problems with the computer.
+or out of memory errors.

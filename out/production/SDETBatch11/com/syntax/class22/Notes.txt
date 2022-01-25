@@ -1,6 +1,5 @@
 Rules for casting object/Classes
-1- We can store a child class object inside a parent type variable because inheritance
-is one way from parent to children.
+1- We can store a child class object inside a parent type variable because inheritance is one way from parent to children.
 2- we can create arrays of type parent and can store all the objects of child classes
 inside that array then we can write loops to call all the child classes inside that array then
 we can write loops to call all the methods from all the classes.

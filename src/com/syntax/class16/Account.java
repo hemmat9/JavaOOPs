@@ -5,15 +5,15 @@ public class Account {
 	private String userName;
 	private String password;
 	private String name;
-	private String adrress;
+	private String address;
 	private int age;
 	private double accountBalance=100000;
 	//to access private fields we should extend it and make the method
 	//public and put restrictions.
 	
-	public void SetUserName(String accountuserName) {
-		if (accountuserName.length()<16) {
-			userName=accountuserName;
+	public void SetUserName(String accountUserName) {
+		if (accountUserName.length()<16) {
+			userName=accountUserName;
 		}else {
 			System.out.println("UserName of this length is not allowed");
 		}
@@ -25,9 +25,9 @@ public class Account {
 			System.out.println("password of this length is not allowed");
 		}
 	}
-	public void getBalance(String accountuserName, String accountPassword) {
+	public void getBalance(String accountUserName, String accountPassword) {
 		 
-		if (userName.equals(accountuserName)&& password.equals(accountPassword)) {
+		if (userName.equals(accountUserName)&& password.equals(accountPassword)) {
 			System.out.println(accountBalance);
 		}else {
 			System.out.println("UserName or password is not correct");

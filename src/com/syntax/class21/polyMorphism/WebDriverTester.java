@@ -1,7 +1,5 @@
 package com.syntax.class21.polyMorphism;
 
-import com.syntax.class18HomeWork.Teacher;
-
 public class WebDriverTester {
     public static void main(String[] args) {
         /*GoogleChrome googleChrome=new GoogleChrome();

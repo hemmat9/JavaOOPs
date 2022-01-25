@@ -1,12 +1,12 @@
 constructor is a special block of code that helps us to build or construct an object
 constructing means giving initial values to the fields of the object. or to initial states and behaviors for an Object.
 
-when we write: new ClassName() this is the code that executes the constructor for that class.
+when we write: new then ClassName with"()", this is the code that executes the constructor for that class.
 if we do not write a constructor a default constructor is provided by Java compiler.
 
 how Java knows which constructor should be executed?
 if there are multiple constructors in a class, Java will check the number of
-parameters,sequence of parameters and type of parameters and then execute it.
+parameters,sequence of parameters and type of parameters and then executes it.
 
 Rules:
 1- Constructors have the same name as the class name

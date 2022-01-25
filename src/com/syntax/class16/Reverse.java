@@ -5,21 +5,21 @@ public class Reverse {
 //reversed String. Method should be available to all classes within your 
 //project and accessible by class name.
 
-	public void reverse(String reverseName) {
-		String rName = "";
+	public void reverse(String string) {
+		StringBuilder reverseString = new StringBuilder();
 
-		for (int i = reverseName.length() - 1; i >= 0; i--) {
+		for (int i = string.length() - 1; i >= 0; i--) {
 
-			rName = rName + reverseName.charAt(i);
+			reverseString.append(string.charAt(i));
 
 		}
-		System.out.println(rName);
+		System.out.println(reverseString);
 
 	}
 
 	public static void main(String[] args) {
 
 		Reverse a = new Reverse();
-		a.reverse("ghafoor");
+		a.reverse("Ghafoor is happy");
 	}
 }

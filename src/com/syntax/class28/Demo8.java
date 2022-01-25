@@ -15,7 +15,7 @@ public class Demo8 {
         Set<Map.Entry<String, Double>> entrySet= grocery.entrySet();//both keys and values
 
         for (Map.Entry<String, Double> entry:entrySet){
-            System.out.println(entry.getKey()+" "+ entry.getValue());
+            System.out.println(entry.getKey()+"= $"+ entry.getValue());
         }
 
 

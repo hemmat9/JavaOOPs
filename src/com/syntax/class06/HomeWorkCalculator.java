@@ -14,7 +14,7 @@ public class HomeWorkCalculator {
 		double num1 = scanner.nextDouble();
 		System.out.println("Please enter a number");
 		double num2 = scanner.nextDouble();
-		System.out.println("Pleae enter an operator +|-|*|/|");
+		System.out.println("Please enter an operator +|-|*|/|");
 		char operator = scanner.next().charAt(0);
 		double result = 0;
 				if (operator == '+') {

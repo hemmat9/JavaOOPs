@@ -11,7 +11,7 @@ import java.util.TreeMap;
 public class Task2 {
 
     public static void main(String[] args) {
-        TreeMap<String, String> country = new TreeMap<>();
+        Map<String, String> country = new TreeMap<>();
         country.put("USA", "Washington DC");
         country.put("Afghanistan", "Kabul");
         country.put("Canada", "Toronto");
@@ -22,7 +22,7 @@ public class Task2 {
 
         Set<Map.Entry<String, String>> entrySet= country.entrySet();//both keys and values
         for (Map.Entry<String, String > countries: entrySet) {
-            System.out.println(countries.getKey()+" "+countries.getValue());
+            System.out.println(countries.getKey()+" = "+countries.getValue());
         }
         Iterator<String> iterator= country.values().iterator();//values
         while(iterator.hasNext()){
@@ -35,6 +35,8 @@ public class Task2 {
             String keys = iterator1.next();
         }
         System.out.println(country.keySet());
+
+
 
     }
 }

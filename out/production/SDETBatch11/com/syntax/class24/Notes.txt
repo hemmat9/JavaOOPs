@@ -1,24 +1,26 @@
-Abstract is a process that hides implementation details and shows only the functionality to the user
+
+
+Abstract is a process that hides implementation details and shows only the functionality to the user.
 
 Abstract classes:
 1- Abstract classes in Java are classes with abstract keyword.
-2- we use abstract classes when we are sure about the method header but not about the implementation.
-3- we can declare a class as abstract class without having any abstract methods inside it
-4- once we have at least one abstract method we must declare that class as abstract
-5- we can have non-abstract methods as well inside the abstract class.
-6- we need a child class to provide implementation of abstract methods
+2- We use abstract classes when we are sure about the method header(Modifiers, name, return type and Parameter) but not about the implementation.
+3- We can declare a class as abstract class without having any abstract methods inside it.
+4- Once we have at least one abstract method we must declare that class as abstract class.
+5- We can have non-abstract methods as well inside the abstract class.
+6- We need a child class to provide implementation of abstract methods.
 7- The child class can provide the implementation for all the methods, or it can leave some methods unimplemented.
-8- we can't have a class or method final and abstract at the same time.
-9- we can not use abstract keyword with fields and constructors.
-10- Abstract method don't have body in the parent class
-11- Abstract is a non-access modifier
+8- We can't have a class or method final and abstract at the same time.
+9- We can not use abstract keyword with fields and constructors.
+10- Abstract method don't have body in the parent class.
+11- Abstract is a non-access modifier.
 
 
 
 Interface classes:
-1- it is something similar to abstract, it is highly used in Java because they are simple to write, and they are not tightly coupled with classes
-2- we can not create a class of interface
+1- It is something similar to abstract, it is highly used in Java because they are simple to write, and they are not tightly coupled with classes
+2- We can not create a class of interface
 3- interfaces are abstract by default
-4- all the method inside the interface is abstract by default
+4- All the method inside the interface is abstract by default
 5- in interfaces we can use another class to implement the interfaces with the keyword "implements", but in abstract we should have a child class to implement methods.
 6- if we don't want to implement one of the methods then we have to declare the class "abstract".

@@ -30,4 +30,3 @@ Rules:
     4-Name must be same
     5-parameters should also be same.
     6-we can't override a private method
-    7-

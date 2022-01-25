@@ -1,4 +1,4 @@
-package com.syntax.reveiwClass;
+package com.syntax.reveiwClass6;
 
 public class Doctor {
 //instances are declared inside the class, outside of the block of code 

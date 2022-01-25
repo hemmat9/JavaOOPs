@@ -1,6 +1,6 @@
 package com.syntax.class16;
 
-import com.syntax.class17Homework.HomeWork1;
+import com.syntax.class17.class17Homework.HomeWork1;
 
 public class HomeWork1Tester {
 

@@ -15,5 +15,6 @@ public class Demo5 {
         Collection<Double> values = grocery.values();//to get the values only separately from map, it is returned as collection coz values can be duplicate
         System.out.println(values);
 
+
     }
 }

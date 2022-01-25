@@ -2,11 +2,15 @@ package com.syntax.class16;
 
 public class AccessModifiersDemo1 {
 	
-	//there are 4 types of access modifiers 1- public 2- default 3- private 4- protected 
+	//there are 4 types of access modifiers
+	// 1- public
+	// 2- default
+	// 3- private
+	// 4- protected
 
 	private String name;// it can be accessed only inside that specific class
 	int age;//default access modifier can be accessed to all classes of a package
-	public double salary;// it can be accessed anywhere in universal 
+	public double salary;// it can be accessed anywhere in java world/ it is a universal variable
 	
 	
 	void displayName() {
@@ -30,11 +34,6 @@ public class AccessModifiersDemo1 {
 		 am.displayName();
 		 am.displayAge();
 		 am.displaySalary();
-		 
-		 
-		 
-		 
-		 
-		 
+
 	 }
 }

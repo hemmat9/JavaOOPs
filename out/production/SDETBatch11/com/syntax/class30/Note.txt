@@ -1,0 +1,16 @@
+Why learn fileHandling in Java:
+1)_ Putting sensitive info inside the code is not a good idea because everyone who has the access to the code will be able to see them
+2)_ Every time we test our application on different environment we have to change the code to update the credentials it's also not an idea and can introduce bug.
+
+
+We will be discussing two types of files
+1- Properties File
+2- Excel File
+
+Properties File:
+Data is stored in the form of Key values pairs
+To read the data from any file we should know the path then we can use FileInputStream class to load that file inside java program.
+
+FileInputStream
+Loads the data inside the program in the form of bytes
+Using properties.load() method data is converted to key value pairs, and we can use the methods from Map interface to read and write the data.

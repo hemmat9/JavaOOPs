@@ -1,30 +1,23 @@
 package com.syntax.class28.Tasks;
-
-import org.apache.commons.collections4.list.TreeList;
-
-import java.util.Iterator;
-import java.util.List;
-
+import java.util.LinkedHashSet;
+import java.util.Set;
 public class Task5 {
 //Create the collection that will store single uniques Objects of a String type in which order is preserved.
 //Write a logic to concatenate all string from the collection.
     public static void main(String[] args) {
 
-        List<String> strings = new TreeList<>();
-        strings.add("Farhad");
-        strings.add("Mahmoud");
-        strings.add("John Smith");
+       Set<String> set = new LinkedHashSet<>();
+        set.add("Farhad");
+        set.add("Mahmoud");
+        set.add("John Smith");
 
-        String result = null;
-
-        Iterator<String> iterator= strings.iterator();
-        while(iterator.hasNext()){
-          Object elements = iterator.next();
-            result +=elements;
+        StringBuilder values = new StringBuilder();
+        for (String str:set
+             ) {
+            values.append(str);
 
         }
-
-        System.out.println(result);
+        System.out.println(values);
 
         }
 

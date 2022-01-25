@@ -1,25 +1,32 @@
 package com.syntax.Practice;
 
-import java.util.ArrayList;
 
-//Create an arrayList of drinks. If any drink has letters “a” or “e” replace it with water.
+import java.util.*;
+
 public class Drinks {
     public static void main(String[] args) {
-        ArrayList<String> drinks = new ArrayList<>();
-        drinks.add("Tea");
-        drinks.add("Coffee");
-        drinks.add("Soft drinks");
-        drinks.add("Pepsi");
-        drinks.add("Water");
-        drinks.add("Hot Chocolate");
-        drinks.add("Lemon Tea");
 
-        for (int i = 0; i < drinks.size(); i++) {
-            if(drinks.get(i).contains("a")||drinks.get(i).contains("e")){
-                drinks.set(i, "Water");
-            }
+        Map<String, Integer> map = new TreeMap<>();
+
+
+        map.put("Farhad", 100);
+        map.put("Haleema", 12);
+        map.put("Yusuf", 1);
+        map.put("Ayesha", 2);
+        map.put("Ibrahim", 8);
+
+        System.out.println(map.keySet());
+        System.out.println(map.values());
+
+        System.out.println(map);
+
+        Set<Map.Entry<String, Integer>> entrySet = map.entrySet();
+        for(Map.Entry<String, Integer> entry: entrySet){
+
+            System.out.println(entry.getKey()+" = "+ entry.getValue());
 
         }
-        System.out.println(drinks);
+
+
     }
 }

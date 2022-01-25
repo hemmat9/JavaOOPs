@@ -19,11 +19,7 @@ public class Task3 {
             System.out.println(entry.getKey() + " " + entry.getValue());
 
         }
-            Set<Map.Entry<Integer, String>> entrySet1= bestBuy.entrySet();
-            for (Map.Entry<Integer, String> entry1:entrySet1) {
-                System.out.println(entry1.getValue()+" "+entry1.getKey());
 
-            }
 
         }
 

@@ -21,7 +21,7 @@ Properties of List:
 Set:
 They can't have duplicate values;
 LinkedHashSet:
-maintain the order
+maintain the order of insertion
 HashSet:
 it is fast but no order
 TreeHashSet:

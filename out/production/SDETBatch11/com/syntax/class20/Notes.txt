@@ -1,7 +1,7 @@
 Super Keyword
 it is used to refer to the parent's class instance, we can use super keyword in 3 different ways
 1)- to call the parent class constructor super()
-2)- to call the method from parent class.
+2)- to call the method from parent class. super
 3)- to use the fields from the parent class.
 
 class Parent{
